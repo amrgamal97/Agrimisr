@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="33.883" height="33.883" viewBox="0 0 33.883 33.883">
+  <g id="Group_36070" data-name="Group 36070" transform="translate(-458.059 -125.059)">
+    <g id="notifications" transform="translate(458.059 125.059)">
+      <path id="Path_33229" data-name="Path 33229" d="M30.5,24.583c-1.694-2.082-2.894-3.141-2.894-8.873,0-5.252-2.682-7.122-4.892-8.033a1.187,1.187,0,0,1-.656-.7A3.208,3.208,0,0,0,19.143,4.5a3.2,3.2,0,0,0-2.908,2.478,1.178,1.178,0,0,1-.664.7c-2.209.911-4.885,2.774-4.885,8.033-.007,5.732-1.207,6.791-2.908,8.873a1.336,1.336,0,0,0,1.151,2.153H29.364A1.331,1.331,0,0,0,30.5,24.583Z" transform="translate(-2.201 -1.323)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_33230" data-name="Path 33230" d="M26.471,36v1.059a4.235,4.235,0,0,1-8.471,0V36" transform="translate(-5.294 -10.588)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_33231" data-name="Path 33231" d="M0,0H33.883V33.883H0Z" fill="none"/>
+    </g>
+    <g id="Group_36069" data-name="Group 36069" transform="translate(89.855 117.942)">
+      <circle id="Ellipse_843" data-name="Ellipse 843" cx="6.125" cy="6.125" r="6.125" transform="translate(388.375 7.191)" fill="#cc4f4f"/>
+      <text id="_٣" data-name="٣" transform="translate(390.493 9.862)" fill="#fff" font-size="7" font-family="SegoeUI, Segoe UI"><tspan x="1.961" y="8">٣</tspan></text>
+    </g>
+  </g>
+</svg>

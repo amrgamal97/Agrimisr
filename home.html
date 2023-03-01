@@ -1,0 +1,939 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./dist/style.css" />
+
+    <!-- Import Bootstrap -->
+    <link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css" />
+
+    <!-- Import Main Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Almarai:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Import Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Import OWL Carousel -->
+    <link rel="stylesheet" href="./assets/lib/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./assets/lib/owl.theme.default.min.css" />
+    <title>Agrimisr</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="home-header">
+      <div class="container-fluid">
+        <div class="btns">
+          <button
+            type="button"
+            class="btn me-2 btn-control1 btn-outline-primary"
+          >
+            بائع
+            <img
+              style="width: 18px"
+              src="./assets/img/Group 36109.svg"
+              alt=""
+            />
+          </button>
+          <button
+            type="button"
+            style="width: 108px"
+            class="btn btn-control2 btn-outline-secondary"
+          >
+            مشتري
+            <img
+              style="width: 21px"
+              src="./assets/img/Group 36108.svg"
+              alt=""
+            />
+          </button>
+        </div>
+        <div class="search">
+          <form>
+            <button type="submit">
+              <img src="./assets/img/Mask Group 45.png" alt="" />
+            </button>
+            <input type="text" placeholder="البحث..." />
+          </form>
+        </div>
+        <div class="logo">
+          <img src="./assets/img/logo-svg.svg" alt="" />
+        </div>
+      </div>
+    </header>
+
+    <!-- Navbar -->
+    <nav class="home-nav pe-lg-5 ps-lg-5 navbar navbar-expand-sm navbar-dark">
+      <div class="flex-nowrap d-flex navbar-control-mobile">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon" style="color: white"></span>
+        </button>
+        <div class="account">
+          <li>
+            <a href="#">
+              حسابي
+              <i class="fa-regular fa-user"></i>
+            </a>
+          </li>
+          <li>
+            <!-- Set/Remove Active Class To Control Notifications -->
+            <a href="#" class="notification" data-counter="٣">
+              <img
+                style="width: 25px"
+                src="./assets/img/Group 36058.svg"
+                alt=""
+              />
+            </a>
+          </li>
+          <li>
+            <a href="#" class="notification" data-counter="٣">
+              <img
+                style="width: 25px"
+                src="./assets/img/Group 36070.svg"
+                alt=""
+              />
+            </a>
+          </li>
+          <li>
+            <a href="#" class="notification" data-counter="٣">
+              <img
+                style="width: 25px"
+                src="./assets/img/Group 36057.svg"
+                alt=""
+              />
+            </a>
+          </li>
+        </div>
+      </div>
+
+      <!-- For Collapsing Navbar -->
+      <div
+        class="collapse navbar-collapse justify-content-end"
+        id="navbarSupportedContent"
+      >
+        <div class="sections">
+          <li style="border: none" dir="rtl">
+            <a href="#">بيع علي Agrimisr.com</a>
+          </li>
+          <li><a href="#">مستلزمات انتاج</a></li>
+          <li><a href="#">عروض</a></li>
+          <li><a href="#">احدث المنتجات</a></li>
+          <li>
+            <a href="#">اقسام السوق الزراعي</a>
+            <img src="./assets/img/menu-icon.svg" alt="" />
+            <div class="submenu1">
+              <ul>
+                <li><a href="#">الفاكهة</a></li>
+                <li class="submenu-toggle">
+                  <a href="#">
+                    <i class="fa-solid fa-arrow-left"></i>
+                    الأسمدة والمخصبات</a
+                  >
+                  <ul class="submenu2">
+                    <li><a href="#"> الأسمدة والمخصبات</a></li>
+                    <li><a href="#">مطهرات وكيماويات</a></li>
+                    <li><a href="#">المبيدات الزراعية</a></li>
+                    <li><a href="#">البذور والشتلات</a></li>
+                    <li><a href="#">المعدات والميكنة الزراعية</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">مطهرات وكيماويات</a></li>
+                <li><a href="#">المبيدات الزراعية</a></li>
+                <li><a href="#">البذور والشتلات</a></li>
+                <li><a href="#">المعدات والميكنة الزراعية</a></li>
+              </ul>
+            </div>
+          </li>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Landing Section -->
+
+    <div class="owl-carousel">
+      <div class="item">
+        <img style="height: 104%" src="assets/img/home-banner.png" alt="" />
+        <h1>استكمل بياناتك</h1>
+        <p>
+          والتركيب 13 - 0 - 46 نيتروجين (N) 13 بوتاسيوم (K,0) 1.41 المميزات
+          يمتاز سماد جيفر بإنه سماد نترات البوتاسيوم يجعله مثاليا خلال فترة
+          التزهير والانتاج و وجود البوتاسيوم هذه
+        </p>
+        <a href="#">استكمال</a>
+      </div>
+      <div class="item">
+        <img src="assets/img/banner.png" alt="" />
+      </div>
+    </div>
+
+    <!-- Categories -->
+    <section class="categories">
+      <div class="categories-title container">
+        <h2 class="">اقسام السوق الزراعي</h2>
+      </div>
+      <div class="boxes-container">
+        <li>
+          <a href="#">
+            <img src="./assets/img/Group 36100.png" alt="" />
+          </a>
+          <h3>المعدات والميكنة الزراعية</h3>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./assets/img/Group 36101.png" alt="" />
+          </a>
+          <h3>الأسمدة والمخصبات</h3>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./assets/img/Group 36102.png" alt="" />
+          </a>
+          <h3>المبيدات الزراعية</h3>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./assets/img/Group 36103.png" alt="" />
+          </a>
+          <h3>علاف جاهزة مصنعة</h3>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./assets/img/Group 36104.png" alt="" />
+          </a>
+          <h3>مطهرات وكيماويات</h3>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./assets/img/Group 36105.png" alt="" />
+          </a>
+          <h3>إضافات الاعلاف</h3>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./assets/img/Group 36103.png" alt="" />
+          </a>
+          <h3>إضافات الاعلاف</h3>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./assets/img/Group 36104.png" alt="" />
+          </a>
+          <h3>إضافات الاعلاف</h3>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./assets/img/Group 36102.png" alt="" />
+          </a>
+          <h3>إضافات الاعلاف</h3>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./assets/img/Group 36105.png" alt="" />
+          </a>
+          <h3>إضافات الاعلاف</h3>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./assets/img/Group 36101.png" alt="" />
+          </a>
+          <h3>المعدات والميكنة الزراعية</h3>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./assets/img/Group 36103.png" alt="" />
+          </a>
+          <h3>علاف جاهزة مصنعة</h3>
+        </li>
+      </div>
+    </section>
+
+    <!-- Best Selling -->
+    <section class="best-selling">
+      <div class="best-selling-title container">
+        <h2 class="">الأكثر مبيعا</h2>
+      </div>
+      <div class="boxes-container">
+        <div class="box">
+          <img src="./assets/img/most-seller5.png" alt="" />
+          <img src="./assets/img/Group 17447.svg" alt="" />
+          <h3>سوبيرنو</h3>
+          <p>٣،٥٠٠ <span>ج.م</span></p>
+          <h3>الكمية <span>٢٠ ط</span></h3>
+          <button>
+            <i class="fa-solid fa-cart-shopping"></i>
+          </button>
+        </div>
+        <div class="box">
+          <img src="./assets/img/most-seller2.png" alt="" />
+          <img src="./assets/img/Group 17447.svg" alt="" />
+          <h3>سوبيرنو</h3>
+          <p>٣،٥٠٠ <span>ج.م</span></p>
+          <h3>الكمية <span>٢٠ ط</span></h3>
+          <button>
+            <i class="fa-solid fa-cart-shopping"></i>
+          </button>
+        </div>
+        <div class="box">
+          <img src="./assets/img/most-seller1.png" alt="" />
+          <img src="./assets/img/Group 17447.svg" alt="" />
+          <h3>سوبيرنو</h3>
+          <p>٣،٥٠٠ <span>ج.م</span></p>
+          <h3>الكمية <span>٢٠ ط</span></h3>
+          <button>
+            <i class="fa-solid fa-cart-shopping"></i>
+          </button>
+        </div>
+        <div class="box">
+          <img src="./assets/img/most-seller3.png" alt="" />
+          <img src="./assets/img/Group 17447.svg" alt="" />
+          <h3>سوبيرنو</h3>
+          <p>٣،٥٠٠ <span>ج.م</span></p>
+          <h3>الكمية <span>٢٠ ط</span></h3>
+          <button>
+            <i class="fa-solid fa-cart-shopping"></i>
+          </button>
+        </div>
+        <div class="box">
+          <img src="./assets/img/most-seller4.png" alt="" />
+          <img src="./assets/img/Group 17447.svg" alt="" />
+          <h3>سوبيرنو</h3>
+          <p>٣،٥٠٠ <span>ج.م</span></p>
+          <h3>الكمية <span>٢٠ ط</span></h3>
+          <button>
+            <i class="fa-solid fa-cart-shopping"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tamweel Section -->
+    <section class="tamweel">
+      <div class="container">
+        <img src="./assets/img/tamweel.png" alt="" />
+        <div class="info">
+          <h1>
+            برامج تمويل متنوعة تناسب<br />
+            كافة الاحتياجات
+            <a href="#">برامج تمويل</a>
+          </h1>
+        </div>
+      </div>
+    </section>
+
+    <!-- Trading -->
+
+    <section class="trading container">
+      <div class="">
+        <div class="row w-auto gx-lg-5">
+          <div class="col-md-6 for-sale">
+            <div class="head-title">
+              <h2 class="">مطلوب للشراء</h2>
+            </div>
+            <div class="table-content">
+              <a href="#">
+                <i class="fa-solid fa-arrow-left me-2"></i>عرض المزيد</a
+              >
+              <div class="boxes-container">
+                <div class="box">
+                  <div class="country">
+                    <img src="./assets/img/Flag_of_Egypt.svg" alt="" />
+                    <p>١٧ يناير ٢٠٢٢ ١٢:٠١</p>
+                  </div>
+                  <div class="buyer">
+                    <div class="picture">
+                      <img
+                        style="width: 80%"
+                        src="./assets/img/Group 35056.png"
+                        alt=""
+                      />
+                    </div>
+                    <div class="info">
+                      <h3>نورة احمد</h3>
+                      <p>مطلوب محصول برتقال</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="box">
+                  <div class="country">
+                    <img src="./assets/img/Flag_of_Brazil_ml.png" alt="" />
+                    <p>١٧ يناير ٢٠٢٢ ١٢:٠١</p>
+                  </div>
+                  <div class="buyer">
+                    <div class="picture">
+                      <img
+                        style="width: 80%"
+                        src="./assets/img/Group 35059.png"
+                        alt=""
+                      />
+                    </div>
+                    <div class="info">
+                      <h3>سيلفيا مارك</h3>
+                      <p>مطلوب محصول برتقال</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="box">
+                  <div class="country">
+                    <img src="./assets/img/Flag_of_Egypt.svg" alt="" />
+                    <p>١٧ يناير ٢٠٢٢ ١٢:٠١</p>
+                  </div>
+                  <div class="buyer">
+                    <div class="picture">
+                      <img
+                        style="width: 80%"
+                        src="./assets/img/Group 35063.png"
+                        alt=""
+                      />
+                    </div>
+                    <div class="info">
+                      <h3>محمد احمد</h3>
+                      <p>مطلوب محصول برتقال</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="box">
+                  <div class="country">
+                    <img src="./assets/img/Flag_of_Egypt.svg" alt="" />
+                    <p>١٧ يناير ٢٠٢٢ ١٢:٠١</p>
+                  </div>
+                  <div class="buyer">
+                    <div class="picture">
+                      <img
+                        style="width: 80%"
+                        src="./assets/img/Group 35061.png"
+                        alt=""
+                      />
+                    </div>
+                    <div class="info">
+                      <h3>حسن احمد</h3>
+                      <p>مطلوب محصول فراولة</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="box">
+                  <div class="country">
+                    <img src="./assets/img/Flag_of_Egypt.svg" alt="" />
+                    <p>١٧ يناير ٢٠٢٢ ١٢:٠١</p>
+                  </div>
+                  <div class="buyer">
+                    <div class="picture">
+                      <img
+                        style="width: 80%"
+                        src="./assets/img/Group 35056.png"
+                        alt=""
+                      />
+                    </div>
+                    <div class="info">
+                      <h3>نورة احمد</h3>
+                      <p>مطلوب محصول فراولة</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="box">
+                  <div class="country">
+                    <img src="./assets/img/Flag_of_Egypt.svg" alt="" />
+                    <p>١٧ يناير ٢٠٢٢ ١٢:٠١</p>
+                  </div>
+                  <div class="buyer">
+                    <div class="picture">
+                      <img
+                        style="width: 80%"
+                        src="./assets/img/Group 35056.png"
+                        alt=""
+                      />
+                    </div>
+                    <div class="info">
+                      <h3>بسنت محمد</h3>
+                      <p>مطلوب محصول فراولة</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="box">
+                  <div class="country">
+                    <img src="./assets/img/Flag_of_Brazil_ml.png" alt="" />
+                    <p>١٧ يناير ٢٠٢٢ ١٢:٠١</p>
+                  </div>
+                  <div class="buyer">
+                    <div class="picture">
+                      <img
+                        style="width: 80%"
+                        src="./assets/img/Group 35059.png"
+                        alt=""
+                      />
+                    </div>
+                    <div class="info">
+                      <h3>سيلفيا مارك</h3>
+                      <p>مطلوب محصول فراولة</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="box">
+                  <div class="country">
+                    <img src="./assets/img/Flag_of_Egypt.svg" alt="" />
+                    <p>١٧ يناير ٢٠٢٢ ١٢:٠١</p>
+                  </div>
+                  <div class="buyer">
+                    <div class="picture">
+                      <img
+                        style="width: 80%"
+                        src="./assets/img/Group 35056.png"
+                        alt=""
+                      />
+                    </div>
+                    <div class="info">
+                      <h3>نورة احمد</h3>
+                      <p>مطلوب محصول فراولة</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="box">
+                  <div class="country">
+                    <img src="./assets/img/Flag_of_Egypt.svg" alt="" />
+                    <p>١٧ يناير ٢٠٢٢ ١٢:٠١</p>
+                  </div>
+                  <div class="buyer">
+                    <div class="picture">
+                      <img
+                        style="width: 80%"
+                        src="./assets/img/Group 35063.png"
+                        alt=""
+                      />
+                    </div>
+                    <div class="info">
+                      <h3>محمد احمد</h3>
+                      <p>مطلوب محصول فراولة</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 to-buy">
+            <div class="head-title">
+              <h2 class="">معروض للبيع</h2>
+              <a href="#">سوق محصولك</a>
+            </div>
+            <div class="table-content">
+              <a href="#"
+                ><i class="fa-solid fa-arrow-left me-2"></i> عرض المزيد</a
+              >
+              <div class="boxes-container">
+                <div class="box">
+                  <a href="#">
+                    <div class="image">
+                      <img src="./assets/img/most-seller1.png" alt="" />
+                      <img src="./assets/img/Group 17447.svg" alt="" />
+                    </div>
+                    <h3>سوبيرنو</h3>
+                    <p>٣،٥٠٠ <span>ج.م</span></p>
+                    <h3>الكمية <span>٢٠ ط</span></h3>
+                    <button>
+                      <i class="fa-solid fa-cart-shopping"></i>
+                    </button>
+                  </a>
+                </div>
+                <div class="box">
+                  <a href="#">
+                    <div class="image">
+                      <img src="./assets/img/most-seller3.png" alt="" />
+                      <img src="./assets/img/Group 17447.svg" alt="" />
+                    </div>
+                    <h3>سوبيرنو</h3>
+                    <p>٣،٥٠٠ <span>ج.م</span></p>
+                    <h3>الكمية <span>٢٠ ط</span></h3>
+                    <button>
+                      <i class="fa-solid fa-cart-shopping"></i></button
+                  ></a>
+                </div>
+                <div class="box">
+                  <a href="#">
+                    <div class="image">
+                      <img src="./assets/img/most-seller5.png" alt="" />
+                      <img src="./assets/img/Group 17447.svg" alt="" />
+                    </div>
+                    <h3>سوبيرنو</h3>
+                    <p>٣،٥٠٠ <span>ج.م</span></p>
+                    <h3>الكمية <span>٢٠ ط</span></h3>
+                    <button>
+                      <i class="fa-solid fa-cart-shopping"></i>
+                    </button>
+                  </a>
+                </div>
+                <div class="box">
+                  <a href="#">
+                    <div class="image">
+                      <img src="./assets/img/most-seller2.png" alt="" />
+                      <img src="./assets/img/Group 17447.svg" alt="" />
+                    </div>
+                    <h3>سوبيرنو</h3>
+                    <p>٣،٥٠٠ <span>ج.م</span></p>
+                    <h3>الكمية <span>٢٠ ط</span></h3>
+                    <button>
+                      <i class="fa-solid fa-cart-shopping"></i>
+                    </button>
+                  </a>
+                </div>
+                <div class="box">
+                  <a href="#">
+                    <div class="image">
+                      <img src="./assets/img/most-seller3.png" alt="" />
+                      <img src="./assets/img/Group 17447.svg" alt="" />
+                    </div>
+                    <h3>سوبيرنو</h3>
+                    <p>٣،٥٠٠ <span>ج.م</span></p>
+                    <h3>الكمية <span>٢٠ ط</span></h3>
+                    <button>
+                      <i class="fa-solid fa-cart-shopping"></i>
+                    </button>
+                  </a>
+                </div>
+              </div>
+              <div class="boxes-container mt-4">
+                <div class="box">
+                  <a href="#">
+                    <div class="image">
+                      <img src="./assets/img/most-seller1.png" alt="" />
+                      <img src="./assets/img/Group 17447.svg" alt="" />
+                    </div>
+                    <h3>سوبيرنو</h3>
+                    <p>٣،٥٠٠ <span>ج.م</span></p>
+                    <h3>الكمية <span>٢٠ ط</span></h3>
+                    <button>
+                      <i class="fa-solid fa-cart-shopping"></i>
+                    </button>
+                  </a>
+                </div>
+                <div class="box">
+                  <a href="#">
+                    <div class="image">
+                      <img src="./assets/img/most-seller4.png" alt="" />
+                      <img src="./assets/img/Group 17447.svg" alt="" />
+                    </div>
+                    <h3>سوبيرنو</h3>
+                    <p>٣،٥٠٠ <span>ج.م</span></p>
+                    <h3>الكمية <span>٢٠ ط</span></h3>
+                    <button>
+                      <i class="fa-solid fa-cart-shopping"></i>
+                    </button>
+                  </a>
+                </div>
+                <div class="box">
+                  <a href="#">
+                    <div class="image">
+                      <img src="./assets/img/most-seller2.png" alt="" />
+                      <img src="./assets/img/Group 17447.svg" alt="" />
+                    </div>
+                    <h3>سوبيرنو</h3>
+                    <p>٣،٥٠٠ <span>ج.م</span></p>
+                    <h3>الكمية <span>٢٠ ط</span></h3>
+                    <button>
+                      <i class="fa-solid fa-cart-shopping"></i>
+                    </button>
+                  </a>
+                </div>
+                <div class="box">
+                  <a href="#">
+                    <div class="image">
+                      <img src="./assets/img/most-seller4.png" alt="" />
+                      <img src="./assets/img/Group 17447.svg" alt="" />
+                    </div>
+                    <h3>سوبيرنو</h3>
+                    <p>٣،٥٠٠ <span>ج.م</span></p>
+                    <h3>الكمية <span>٢٠ ط</span></h3>
+                    <button>
+                      <i class="fa-solid fa-cart-shopping"></i>
+                    </button>
+                  </a>
+                </div>
+                <div class="box">
+                  <a href="#">
+                    <div class="image">
+                      <img src="./assets/img/most-seller5.png" alt="" />
+                      <img src="./assets/img/Group 17447.svg" alt="" />
+                    </div>
+                    <h3>سوبيرنو</h3>
+                    <p>٣،٥٠٠ <span>ج.م</span></p>
+                    <h3>الكمية <span>٢٠ ط</span></h3>
+                    <button>
+                      <i class="fa-solid fa-cart-shopping"></i>
+                    </button>
+                  </a>
+                </div>
+              </div>
+              <div class="dot-navigation">
+                <div class="dot-navigation__item dot_one active"></div>
+                <div class="dot-navigation__item dot_two"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newely Comming -->
+
+    <section class="newely-comming">
+      <div class="newely-comming-title container">
+        <h2 class="">المنتجات الحديثة</h2>
+      </div>
+      <div class="boxes-container">
+        <div class="box">
+          <a href="#">
+            <img src="./assets/img/most-seller5.png" alt="" />
+            <img src="./assets/img/Group 17447.svg" alt="" />
+          </a>
+          <h3>سوبيرنو</h3>
+          <p>٣،٥٠٠ <span>ج.م</span></p>
+          <h3>الكمية <span>٢٠ ط</span></h3>
+          <button>
+            <i class="fa-solid fa-cart-shopping"></i>
+          </button>
+        </div>
+        <div class="box">
+          <a href="#">
+            <img src="./assets/img/most-seller2.png" alt="" />
+            <img src="./assets/img/Group 17447.svg" alt="" />
+          </a>
+          <h3>سوبيرنو</h3>
+          <p>٣،٥٠٠ <span>ج.م</span></p>
+          <h3>الكمية <span>٢٠ ط</span></h3>
+          <button>
+            <i class="fa-solid fa-cart-shopping"></i>
+          </button>
+        </div>
+        <div class="box">
+          <a href="#">
+            <img src="./assets/img/most-seller1.png" alt="" />
+            <img src="./assets/img/Group 17447.svg" alt="" />
+          </a>
+          <h3>سوبيرنو</h3>
+          <p>٣،٥٠٠ <span>ج.م</span></p>
+          <h3>الكمية <span>٢٠ ط</span></h3>
+          <button>
+            <i class="fa-solid fa-cart-shopping"></i>
+          </button>
+        </div>
+        <div class="box">
+          <a href="#">
+            <img src="./assets/img/most-seller3.png" alt="" />
+            <img src="./assets/img/Group 17447.svg" alt="" />
+          </a>
+          <h3>سوبيرنو</h3>
+          <p>٣،٥٠٠ <span>ج.م</span></p>
+          <h3>الكمية <span>٢٠ ط</span></h3>
+          <button>
+            <i class="fa-solid fa-cart-shopping"></i>
+          </button>
+        </div>
+        <div class="box">
+          <a href="#">
+            <img src="./assets/img/most-seller3.png" alt="" />
+            <img src="./assets/img/Group 17447.svg" alt="" />
+          </a>
+          <h3>سوبيرنو</h3>
+          <p>٣،٥٠٠ <span>ج.م</span></p>
+          <h3>الكمية <span>٢٠ ط</span></h3>
+          <button>
+            <i class="fa-solid fa-cart-shopping"></i>
+          </button>
+        </div>
+        <div class="box">
+          <a href="#">
+            <img src="./assets/img/most-seller1.png" alt="" />
+            <img src="./assets/img/Group 17447.svg" alt="" />
+          </a>
+          <h3>سوبيرنو</h3>
+          <p>٣،٥٠٠ <span>ج.م</span></p>
+          <h3>الكمية <span>٢٠ ط</span></h3>
+          <button>
+            <i class="fa-solid fa-cart-shopping"></i>
+          </button>
+        </div>
+        <div class="box">
+          <a href="#">
+            <img src="./assets/img/most-seller4.png" alt="" />
+            <img src="./assets/img/Group 17447.svg" alt="" />
+          </a>
+          <h3>سوبيرنو</h3>
+          <p>٣،٥٠٠ <span>ج.م</span></p>
+          <h3>الكمية <span>٢٠ ط</span></h3>
+          <button>
+            <i class="fa-solid fa-cart-shopping"></i>
+          </button>
+        </div>
+        <div class="box">
+          <a href="#">
+            <img src="./assets/img/most-seller3.png" alt="" />
+            <img src="./assets/img/Group 17447.svg" alt="" />
+          </a>
+          <h3>سوبيرنو</h3>
+          <p>٣،٥٠٠ <span>ج.م</span></p>
+          <h3>الكمية <span>٢٠ ط</span></h3>
+          <button>
+            <i class="fa-solid fa-cart-shopping"></i>
+          </button>
+        </div>
+        <div class="box">
+          <a href="#">
+            <img src="./assets/img/most-seller3.png" alt="" />
+            <img src="./assets/img/Group 17447.svg" alt="" />
+          </a>
+          <h3>سوبيرنو</h3>
+          <p>٣،٥٠٠ <span>ج.م</span></p>
+          <h3>الكمية <span>٢٠ ط</span></h3>
+          <button>
+            <i class="fa-solid fa-cart-shopping"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sponsers -->
+
+    <section class="sponsers container">
+      <div class="sponsers-title">
+        <h2 class="">الرعاه</h2>
+      </div>
+      <div class="main-sponsers">
+        <div class="box">
+          <img src="./assets/img/Group 32222.png" alt="" />
+        </div>
+        <div class="box">
+          <img src="./assets/img/Group 32223.png" alt="" />
+        </div>
+        <div class="box">
+          <img src="./assets/img/Group 32224.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Partners -->
+
+    <section class="partners container">
+      <div class="partners-title">
+        <h2 class="">الشركاء الاستراتيجين</h2>
+      </div>
+      <div class="main-partners">
+        <div class="box">
+          <img src="./assets/img/Group 32225.png" alt="" />
+        </div>
+        <div class="box">
+          <img src="./assets/img/Group 32226.png" alt="" />
+        </div>
+        <div class="box">
+          <img src="./assets/img/Group 32227.png" alt="" />
+        </div>
+        <div class="box">
+          <img src="./assets/img/Group 32228.png" alt="" />
+        </div>
+        <div class="box">
+          <img src="./assets/img/Group 32229.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <footer class="page-footer">
+      <div class="container">
+        <div class="box contact">
+          <div class="icons">
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+          <ul>
+            <li>
+              <a href="#">اتصل بنا</a>
+            </li>
+            <li dir="rtl">
+              <i class="fa-solid fa-location-dot ps-1"></i>
+              القرية الذكية , الكيلو 28 طريق مصر/اسكند الصحراوي , مبني رقم
+              A3-B82
+            </li>
+            <li>
+              <a href="#" dir="ltr"
+                >15255<i class="fa-solid fa-phone ps-1"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <div class="line"></div>
+        <div class="box currency">
+          <div class="btn-group">
+            <button
+              type="button"
+              class="btn btn-light dropdown-toggle"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              العملة
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">US Dollar</a></li>
+              <hr />
+              <li><a class="dropdown-item" href="#">جنيه مصري</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="box accounts">
+          <h3>حسابي</h3>
+          <ul>
+            <li><a href="#">حسابي</a></li>
+            <li><a href="#">طلباتي</a></li>
+          </ul>
+        </div>
+        <div class="box addons">
+          <h3>إضافات</h3>
+          <ul>
+            <li><a href="#">اتصل بنا</a></li>
+            <li><a href="#">الشركات</a></li>
+            <li><a href="#">قائمة رغباتي</a></li>
+            <li><a href="#">خريطة الموقع</a></li>
+          </ul>
+        </div>
+        <div class="box infos">
+          <h3>معلومات</h3>
+          <ul>
+            <li><a href="#">من نحن</a></li>
+            <li><a href="#">شروط الاستخدام</a></li>
+            <li><a href="#">الخصوصية</a></li>
+            <li><a href="#">اتصل بنا</a></li>
+          </ul>
+        </div>
+        <div class="box sponsors">
+          <img src="./assets/img/logo-svg.svg" alt="" />
+          <img src="./assets/img/Group 32022.png" alt="" />
+        </div>
+      </div>
+      <div class="copywrite">
+        <div class="container">
+          <p>© جميع الحقوق محفوظة 2022 منصة وزارة التضامن الاجتماعي للاقراض.</p>
+        </div>
+      </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="./assets/lib/owl.carousel.min.js"></script>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>

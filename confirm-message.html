@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./dist/style.css" />
+    <link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Almarai:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Confirm Message</title>
+  </head>
+  <body>
+    <header class="auth-header">
+      <img src="./assets/img/logo-svg.svg" alt="" />
+    </header>
+    <main class="main-screen">
+      <!-- <div class="reseting"> -->
+      <div class="main-content reseting">
+        <div class="content">
+          <h2 class="confirm-header">ادخل رمز التأكيد</h2>
+          <p class="confirm-title">من فضلك قم بإدخال الرمز المرسل إليك</p>
+          <div class="input-field">
+            <div class="input-code">
+              <form>
+                <div class="input-code-field">
+                  <input
+                    type="text"
+                    maxlength="1"
+                    oninput="this.value=this.value.replace(/[^0-9]/g,'');"
+                  />
+                </div>
+                <div class="input-code-field">
+                  <input
+                    type="text"
+                    maxlength="1"
+                    oninput="this.value=this.value.replace(/[^0-9]/g,'');"
+                  />
+                </div>
+                <div class="input-code-field">
+                  <input
+                    type="text"
+                    maxlength="1"
+                    oninput="this.value=this.value.replace(/[^0-9]/g,'');"
+                  />
+                </div>
+                <div class="input-code-field">
+                  <input
+                    type="text"
+                    maxlength="1"
+                    oninput="this.value=this.value.replace(/[^0-9]/g,'');"
+                  />
+                </div>
+              </form>
+              <a>لم يتم إرسال الرمز؟</a>
+              <h3 href="#">إعادة إرسال الرمز</h3>
+            </div>
+          </div>
+          <input type="submit" value="متابعة" />
+        </div>
+        <!-- </div> -->
+      </div>
+    </main>
+  </body>
+</html>

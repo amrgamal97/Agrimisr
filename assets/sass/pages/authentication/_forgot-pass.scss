@@ -1,0 +1,19 @@
+main {
+  .forgot-pass-content {
+    padding: 40px 0;
+    h2 {
+      font-size: 30px;
+    }
+    @media screen and (orientation: landscape) {
+      & {
+        margin-top: calc(90px + 10%) !important;
+      }
+    }
+  }
+  .sending {
+    margin-top: 10px;
+  }
+  .forgot-submit {
+    margin-top: 50px !important;
+  }
+}

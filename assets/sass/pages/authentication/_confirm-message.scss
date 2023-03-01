@@ -1,0 +1,71 @@
+@use "../../default/main-variables" as *;
+.reseting {
+  input[type="submit"] {
+    transition: 0.3s;
+    &:hover {
+      background-color: #232921;
+    }
+  }
+  @media all and (max-width: 959px) and (orientation: landscape) {
+    & {
+      margin-top: calc(90px + 5%) !important;
+    }
+  }
+  .confirm-title {
+    color: #232921;
+    font-family: $main-font;
+    font-size: 12px;
+    margin: 0;
+  }
+  .confirm-header {
+    padding-bottom: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  .input-code {
+    input {
+      border: none;
+      width: 35px;
+    }
+
+    a {
+      display: inline;
+      color: #1746b5 !important;
+      font-size: 14px;
+    }
+
+    h3 {
+      color: #232921;
+      font-family: $main-font;
+      font-weight: $font-weight-bold;
+      font-size: 18px;
+      margin-top: 5px;
+    }
+
+    form {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 30px;
+      .input-code-field {
+        position: relative;
+        margin: 0 10px;
+        input {
+          direction: ltr;
+          text-align: center;
+          &:focus {
+            outline: none;
+            border: none;
+          }
+        }
+        &::before {
+          content: "";
+          background-color: #707070;
+          width: 100%;
+          height: 2px;
+          position: absolute;
+          bottom: 0;
+        }
+      }
+    }
+  }
+}
